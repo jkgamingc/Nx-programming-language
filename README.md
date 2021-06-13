@@ -1,2 +1,2 @@
-# Cx
-Cx is a programming language . I am making it in batch file . 
+# Nx
+Nx is a general purpose programming language. I am making it in batch file . 
