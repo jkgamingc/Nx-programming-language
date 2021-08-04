@@ -1,0 +1,40 @@
+title quiz game
+colour F0
+label top
+clrscr
+print Welcome to quiz game
+print 1)start the game
+print 2)exit
+input option=
+
+if %option%==1 (
+	clrscr
+	call q1
+)
+
+if %option%==2 (
+	exit
+)
+
+goto top
+
+func q1
+	print This is your first question
+	print Who made the programming language Nx
+	print 1)jkgaming
+	print 2)microsoft
+	print 3)google
+	print 4)apple
+	input ans1=
+	if %ans1%==1 (
+		print Congratulations your answer is correct(:
+		wait
+		print This is the only question in the game so the game is finished now.
+		wait
+		exit
+	) else (
+		print Your answer is incorrect):
+		wait 
+		exit
+	)
+endfunc

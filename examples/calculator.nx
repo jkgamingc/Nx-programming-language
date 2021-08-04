@@ -1,0 +1,8 @@
+label top
+    clrscr
+    input num1=Enter first digit:
+    input num2=Enter second digit:
+    int sum=%num1%+%num2%
+    print your answer is %sum%
+    wait
+goto top

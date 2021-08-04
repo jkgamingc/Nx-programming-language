@@ -1,0 +1,9 @@
+input option=
+if %option% == 1 (
+	label top
+		print 1
+	goto top
+) elseif %option% == 0 (
+	print 0 
+	wait
+)

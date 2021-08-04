@@ -1,0 +1,11 @@
+title clock
+colour F0
+
+winsize 30, 10
+
+label top
+	clrscr
+	date
+	time
+	ping -n 1>nul
+goto top 
