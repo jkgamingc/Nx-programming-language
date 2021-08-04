@@ -1,2 +1,2 @@
 # Nx
-Nx is a general purpose programming language. I am making it in batch file . 
+Nx is a high level general purpose procedural compiled programming language. I have made it in batch file . 
