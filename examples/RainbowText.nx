@@ -1,0 +1,15 @@
+colour 0a
+print hello
+wait
+colour 1b
+print hello
+wait
+colour 2c
+print hello
+wait
+colour 3d
+print hello
+wait
+colour 4e
+print hello
+wait
